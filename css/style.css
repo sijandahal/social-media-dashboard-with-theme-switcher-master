@@ -114,10 +114,6 @@ body.toggle label {
   background: hsl(230, 22%, 74%);
 }
 
-body.toggle .ball {
- background-color: #fff;
-}
-
 .ball {
   height: 20px;
   width: 20px;
@@ -128,6 +124,10 @@ body.toggle .ball {
   left: 2px;
   cursor: pointer;
   transition: linear 0.2s;
+}
+
+body.toggle .ball {
+ background-color: #fff;
 }
 
 #checkbox:checked + .label .ball {
